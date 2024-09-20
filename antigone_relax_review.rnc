@@ -1,0 +1,42 @@
+start = play
+play = element play { meta, body }
+meta = element meta { title, author*, date, translator*, c_list }
+title = element title { text }
+author = element author { text }
+date = element date { text }
+translator = element translator { text }
+c_list =
+    element c_list {
+        mixed { antigone, ismene, creon, eurydice, haemon, teiresias, guard, mess1, mess2, chorus }
+    }
+antigone = element antigone { t*, text* }
+t = attribute t { "action" | "speech" | "ref" }
+ismene = element ismene { t*, text* }
+creon = element creon { t*, text* }
+eurydice = element eurydice { t*, text* }
+haemon = element haemon { t*, text* }
+teiresias = element teiresias { t*, text* }
+guard = element guard { t*, text* }
+mess1 = element mess1 { t*, text* }
+mess2 = element mess2 { t*, text* }
+chorus = element chorus { t*, text* }
+body = element body { direct+, speech+ }
+direct =
+    element direct {
+        mixed {
+            antigone*,
+            ismene*,
+            creon*,
+            eurydice*,
+            haemon*,
+            teiresias*,
+            guard*,
+            mess1*,
+            mess2*,
+            chorus*
+        }
+    }
+speech =
+    element speech {
+        antigone*, ismene*, creon*, eurydice*, haemon*, teiresias*, guard*, mess1*, mess2*, chorus*
+    }

@@ -1,0 +1,115 @@
+<?xml-model href="antigone.rnc" type="application/relax-ng-compact-syntax"?>
+<play>
+    <meta>
+        <title>Antigone</title>
+
+        <author>Sophocles</author>
+
+        <date>442 B.C.E</date>
+
+        <translator>R. C. Jebb</translator>
+
+        <c_list> daughters of Oedipus: <antigone>ANTIGONE</antigone>
+            <ismene>ISMENE</ismene>
+            <creon>CREON, King of Thebes</creon>
+            <eurydice>EURYDICE, his wife</eurydice>
+            <haemon>HAEMON, his son</haemon>
+            <teiresias>TEIRESIAS, the blind prophet</teiresias>
+            <guard>GUARD, set to watch the corpse of Polyneices</guard>
+            <mess1>FIRST MESSENGER</mess1>
+            <mess2>SECOND MESSENGER, from the house</mess2>
+            <chorus>CHORUS OF THEBAN ELDERS</chorus></c_list>
+    </meta>
+
+
+    <body>
+        <direct>The same as in Oedipus the King, an open space before the royal palace, once that of
+            Oedipus, at Thebes. The backscene represents the front of the palace, with three doors,
+            of which the central and largest is the principal entrance into the house. The time is
+            at daybreak on the morning after the fall of the two brothers, Eteocles and Polyneices,
+            and the flight of the defeated Argives. <antigone t="action">calls</antigone>
+            <ismene t="ref"> forth from the palace</ismene>, in order to speak to <ismene t="ref"
+                >her</ismene> alone.</direct>
+        <speech>
+            <antigone t="speech">Ismene, sister, mine own dear sister, knowest thou what ill there
+                is, of all bequeathed by Oedipus, that Zeus fulfils not for us twain while we live?
+                Nothing painful is there, nothing fraught with ruin, no shame, no dishonour, that I
+                have not seen in thy woes and mine. And now what new edict is this of which they
+                tell, that our Captain hath just published to all Thebes? Knowest thou aught? Hast
+                thou heard? Or is it hidden from thee that our friends are threatened with the doom
+                of our foes? </antigone>
+            <ismene t="speech">No word of friends, Antigone, gladsome or painful, hath come to me,
+                since we two sisters were bereft of brothers twain, killed in one day by twofold
+                blow; and since in this last night the Argive host hath fled, know no more, whether
+                my fortune be brighter, or more grievous.</ismene>
+            <antigone t="speech">I knew it well, and therefore sought to bring thee beyond the gates
+                of the court, that thou mightest hear alone. </antigone>
+            <ismene t="speech">What is it? 'Tis plain that thou art brooding on some dark
+                tidings.</ismene>
+            <antigone t="speech">What, hath not Creon destined our brothers, the one to honoured
+                burial, the other to unburied shame? Eteocles, they say, with due observance of
+                right and custom, he hath laid in the earth, for his honour among the dead below.
+                But the hapless corpse of Polyneices-as rumour saith, it hath been published to the
+                town that none shall entomb him or mourn, but leave unwept, unsepulchred, a welcome
+                store for the birds, as they espy him, to feast on at will. Such, 'tis said, is the
+                edict that the good Creon hath set forth for thee and for me,-yes, for me,-and is
+                coming hither to proclaim it clearly to those who know it not; nor counts the matter
+                light, but, whoso disobeys in aught, his doom is death by stoning before all the
+                folk. Thou knowest it now; and thou wilt soon show whether thou art nobly bred, or
+                the base daughter of a noble line.</antigone>
+            <ismene t="speech">Poor sister,-and if things stand thus, what could I help to do or
+                undo?</ismene>
+            <antigone t="speech">Consider if thou wilt share the toil and the deed.</antigone>
+            <ismene t="speech">In what venture? What can be thy meaning?</ismene>
+            <antigone t="speech">Wilt thou aid this hand to lift the dead?</antigone>
+            <ismene t="speech">Thou wouldst bury him,-when 'tis forbidden to Thebes?</ismene>
+            <antigone t="speech">I will do my part,-and thine, if thou wilt not,-to a brother. False
+                to him will I never be found.</antigone>
+            <ismene t="speech">Ah, over-bold! when Creon hath forbidden?</ismene>
+            <antigone t="speech">Nay, he hath no right to keep me from mine own.</antigone>
+            <ismene t="speech">Ah me! think, sister, how our father perished, amid hate and scorn,
+                when sins bared by his own search had moved him to strike both eyes with
+                self-blinding hand; then the mother wife, two names in one, with twisted noose did
+                despite unto her life; and last, our two brothers in one day,-each shedding, hapless
+                one, a kinsman's blood,-wrought out with mutual hands their common doom. And now we
+                in turn-we two left all alone think how we shall perish, more miserably than all the
+                rest, if, in defiance of the law, we brave a king's decree or his powers. Nay, we
+                must remember, first, that we were born women, as who should not strive with men;
+                next, that we are ruled of the stronger, so that we must obey in these things, and
+                in things yet sorer. I, therefore, asking the Spirits Infernal to pardon, seeing
+                that force is put on me herein, will hearken to our rulers. for 'tis witless to be
+                over busy.</ismene>
+            <antigone t="speech">I will not urge thee,-no nor, if thou yet shouldst have the mind,
+                wouldst thou be welcome as a worker with me. Nay, be what thou wilt; but I will bury
+                him: well for me to die in doing that. I shall rest, a loved one with him whom I
+                have loved, sinless in my crime; for I owe a longer allegiance to the dead than to
+                the living: in that world I shall abide for ever. But if thou wilt, be guilty of
+                dishonouring laws which the gods have stablished in honour.</antigone>
+            <ismene t="speech">I do them no dishonour; but to defy the State,-I have no strength for
+                that.</ismene>
+            <antigone t="speech">Such be thy plea:-I, then, will go to heap the earth above the
+                brother whom I love.</antigone>
+            <ismene t="speech">Alas, unhappy one! How I fear for thee!</ismene>
+            <antigone t="speech">Fear not for me: guide thine own fate aright.</antigone>
+            <ismene t="speech">At least, then, disclose this plan to none, but hide it closely,-and
+                so, too, will I.</ismene>
+            <antigone t="speech">Oh, denounce it! Thou wilt be far more hateful for thy silence, if
+                thou proclaim not these things to all.</antigone>
+            <ismene t="speech">Thou hast a hot heart for chilling deeds.</ismene>
+            <antigone t="speech">I know that I please where I am most bound to please.</antigone>
+            <ismene t="speech">Aye, if thou canst; but thou wouldst what thou canst not.</ismene>
+            <antigone t="speech"> Why, then, when my strength fails, I shall have done.</antigone>
+            <ismene t="speech">A hopeless quest should not be made at all.</ismene>
+            <antigone t="speech"> If thus thou speakest, thou wilt have hatred from me, and will
+                justly be subject to the lasting hatred of the dead. But leave me, and the folly
+                that is mine alone, to suffer this dread thing; for I shall not suffer aught so
+                dreadful as an ignoble death.</antigone>
+            <ismene t="speech">Go, then, if thou must; and of this be sure,-that though thine errand
+                is foolish, to thy dear ones thou art truly dear.</ismene>
+        </speech>
+
+        <direct><antigone t="action">Exit</antigone> on the spectators' left. <ismene t="action"
+                >retires</ismene> into the palace by one of the two side-doors. When they have
+            departed, <chorus t="action">enters</chorus>. </direct>
+    </body>
+</play>
