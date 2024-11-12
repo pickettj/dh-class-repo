@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pitt_walk>
+    <premise> This is a super simple XML document designed to illustrate one strategy for using XSLT
+        geospatial information from an XML document and output it in a geojson file. </premise>
+    <body>
+        <day> Today I sat at <place uid="commonplace">Commonplace Coffee</place> to have a super
+            trendy matcha latte. Then I spent a few hours at the <place uid="ascend">rock
+                gym</place>, before making my way to <place uid="posvar">campus</place>. </day>
+
+        <day>The next day I started at <place uid="posvar">Posvar</place> before going to the <place uid="ascend">gym</place>.</day>
+
+    </body>
+
+
+</pitt_walk>
