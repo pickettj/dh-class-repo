@@ -50,27 +50,14 @@
     
     
 
-<!-- Drawing lines "as the crow flies," by day -->
+    <!-- Part V: Chart Your Journey -->
 
-    <xsl:template mode="lines" match="day">
-        {
-        "type": "Feature",
-        "geometry": {
-        "type": "LineString",
-        "coordinates": [
-        <xsl:apply-templates select="place" mode="lines"/>
-        ]
-        },
-        "properties": {
-        "name": "Line_<xsl:value-of select="position()"/>"
-        }
-        }<xsl:if test="position() != last()">,</xsl:if>
-    </xsl:template>
+    <!--<xsl:template mode="lines" match="day">
+       <!-\-YOUR CODE HERE-\->
+    </xsl:template>-->
     
-    <xsl:template mode="lines" match="place">
-        <xsl:variable name="coords" select="map:get($coordinates, @uid)"/>
-        [<xsl:value-of select="$coords"/>]
-        <xsl:if test="position() != last()">,</xsl:if>
-    </xsl:template>
+    <!--<xsl:template mode="lines" match="place">
+        <!-\-YOUR CODE HERE-\->
+    </xsl:template>-->
     
 </xsl:stylesheet>
