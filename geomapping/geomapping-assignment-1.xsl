@@ -25,8 +25,8 @@
         {
         "type": "FeatureCollection",
         "features": [
-        <xsl:apply-templates select="//place" mode="points"/>,
-        <xsl:apply-templates select="//day" mode="lines"/>
+        <xsl:apply-templates select="//place" mode="points"/><!--,
+        <xsl:apply-templates select="//day" mode="lines"/>-->
         ]
         }
     </xsl:template>
