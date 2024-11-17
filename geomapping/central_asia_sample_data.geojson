@@ -1,0 +1,280 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 65.654722,40.034167,2.001 ]
+    },
+    "properties": {
+    "Place":"Ziya al-Din",
+    "Origins":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 65.379167,40.084444,3.001 ]
+    },
+    "properties": {
+    "Place":"Kermina",
+    "Origins":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 64.666667,40.1,3.001 ]
+    },
+    "properties": {
+    "Place":"Ghijduwan",
+    "Origins":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 64.516667,40.033333,1.001 ]
+    },
+    "properties": {
+    "Place":"Wabkand",
+    "Origins":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 67.19861,38.20611,2.001 ]
+    },
+    "properties": {
+    "Place":"Baysun",
+    "Origins":2
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 65.8,38.866667,6.001 ]
+    },
+    "properties": {
+    "Place":"Qarshi",
+    "Origins":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 66.983333,39.7,18.001 ]
+    },
+    "properties": {
+    "Place":"Samarqand",
+    "Origins":18
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 66.256111,39.898889,3.001 ]
+    },
+    "properties": {
+    "Place":"Katta-Qurghan",
+    "Origins":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 66.83,39.05,3.001 ]
+    },
+    "properties": {
+    "Place":"Shahrisabz",
+    "Origins":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 67.25,39.4,6.001 ]
+    },
+    "properties": {
+    "Place":"Urgut",
+    "Origins":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 67.116667,36.7,7.001 ]
+    },
+    "properties": {
+    "Place":"Balkh",
+    "Origins":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 67.683333,36.683333,5.001 ]
+    },
+    "properties": {
+    "Place":"Khulm",
+    "Origins":5
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 68.868056,36.728611,1.001 ]
+    },
+    "properties": {
+    "Place":"Kunduz",
+    "Origins":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 65.927778,36.221389,3.001 ]
+    },
+    "properties": {
+    "Place":"Sancharik",
+    "Origins":3
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 65.752,36.665,1.001 ]
+    },
+    "properties": {
+    "Place":"Jawzjan",
+    "Origins":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 68.78186,37.83399,13.001 ]
+    },
+    "properties": {
+    "Place":"Khatlan",
+    "Origins":13
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 68.5381,38.5264,8.001 ]
+    },
+    "properties": {
+    "Place":"Hisar",
+    "Origins":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 70.796667,38.466389,6.001 ]
+    },
+    "properties": {
+    "Place":"Darvaz",
+    "Origins":6
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 71.555833,37.491667,7.001 ]
+    },
+    "properties": {
+    "Place":"Badakhshan",
+    "Origins":7
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 70.9425,40.528611,10.001 ]
+    },
+    "properties": {
+    "Place":"Khoqand",
+    "Origins":10
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 69.006389,39.910833,8.001 ]
+    },
+    "properties": {
+    "Place":"Ura-tepa",
+    "Origins":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 69.616667,40.283333,8.001 ]
+    },
+    "properties": {
+    "Place":"Khujand",
+    "Origins":8
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 71.724722,40.471111,1.001 ]
+    },
+    "properties": {
+    "Place":"Margilan",
+    "Origins":1
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 71.668333,41.001111,4.001 ]
+    },
+    "properties": {
+    "Place":"Namangan",
+    "Origins":4
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 69.216667,41.266667,2.001 ]
+    },
+    "properties": {
+    "Place":"Tashkent",
+    "Origins":2
+    }
+  }
+]
+}
