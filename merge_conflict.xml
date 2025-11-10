@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Invisible Cities is one of my favorite books. Written by Italo Calvino, I was the only person to read this my senior year,
-    introducing this to my AP English teacher. The book itself is short, consisting of many chapters, which there consist of
-    many pages (as normal books do). Each page or two is dedicated to a different city that Marco Polo has visited. These cities
-    are broken up into different types, and there are a certain number of each of stories in each type (there are five
-    "Hidden Cities" - "Hidden Cities 1" through "Hidden Cities 5"). These cities do not, in actuality, exist, but are philosophical
-    representations of different ideas, meant to describe a piece of humanity, society, and/or a variety of other topics.
-    
-    For the most part, the markup I chose is rather straightforward. However, there are a few items that require a moment of explanation:
-      - The story contains anachronisms. Marco Polo is able to fly on airplanes, and ride in cars, and there is automated plumbing and
-        the like throughout the story. These have been specifically extracted, and an optional attribute ("object") can be added
-        to specify what the mentioned anachronism is.
-      - metadata_include is used to specify places where data from the information section (otherwise not visible) that is ordered
-        in a logical way can be displayed when it comes time. So that information that belongs logically in one place can be
-        rendered where they actually belong.
-    
-    Truthfully, I chose this to mark up because it is one of my favorite books, and would prove to be highly receptive to marking up
-    (able to be marked up and understood, and yet push the boundaries of what we normally define as a simple "book"). Though this book is
-    more than receptive of great amounts of potential for just about anything.
+   Test XML file for resolving merge conflicts
     -->
 <book1>
     <information>
