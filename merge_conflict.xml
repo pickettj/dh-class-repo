@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Invisible Cities is one of my favorite books. Written by Italo Calvino, I was the only person to read this my senior year,
+    introducing this to my AP English teacher. The book itself is short, consisting of many chapters, which there consist of
+    many pages (as normal books do). Each page or two is dedicated to a different city that Marco Polo has visited. These cities
+    are broken up into different types, and there are a certain number of each of stories in each type (there are five
+    "Hidden Cities" - "Hidden Cities 1" through "Hidden Cities 5"). These cities do not, in actuality, exist, but are philosophical
+    representations of different ideas, meant to describe a piece of humanity, society, and/or a variety of other topics.
+    
+    For the most part, the markup I chose is rather straightforward. However, there are a few items that require a moment of explanation:
+      - The story contains anachronisms. Marco Polo is able to fly on airplanes, and ride in cars, and there is automated plumbing and
+        the like throughout the story. These have been specifically extracted, and an optional attribute ("object") can be added
+        to specify what the mentioned anachronism is.
+      - metadata_include is used to specify places where data from the information section (otherwise not visible) that is ordered
+        in a logical way can be displayed when it comes time. So that information that belongs logically in one place can be
+        rendered where they actually belong.
+    
+    Truthfully, I chose this to mark up because it is one of my favorite books, and would prove to be highly receptive to marking up
+    (able to be marked up and understood, and yet push the boundaries of what we normally define as a simple "book"). Though this book is
+    more than receptive of great amounts of potential for just about anything.
+    -->
+<book1>
+    <information>
+        <author first_name="Italo" last_name="Calvino">italo calvino</author>
+        <title>Invisible Cities</title>
+        <inclusions>
+            <item tag="headline">Dream-like story-telling at the twilight of an empire</item>
+            <item tag="description">In a garden sit the aged <character tag="kublai">Kublai
+                    Khan</character> and the young <character tag="polo">Marco Polo</character> --
+                Tartar emperor and Venetian traveler. <character tag="kublai">Kublai
+                    Khan</character> has sensed the end of his empire coming soon. <character
+                    tag="polo">Marco Polo</character> diverts the <character tag="kublai"
+                    >emperor</character> with tales of the cities <character tag="polo"
+                    >he</character> has seen in <character tag="polo">his</character> travels around
+                the empire: cities and memory, cities and desire, cities and designs, cities and the
+                dead, cities and the sky, trading cities, hidden cities. Soon it becomes clear that
+                each of these fantastic places is really the same place.</item>
+        </inclusions>
+        <characters>
+            <character tag="polo">Marco Polo</character>
+            <character tag="kublai">Kublai Khan</character>
+        </characters>
+    </information>
+    <content>
+        <pages>
+            <city chapter="8" pageBegin="124" pageEnd="125" title="Cities &amp; Names" index="5"
+                name="Irene">
+                <paragraph><mention>Irene</mention> is the city visible when you lean out from the
+                    edge of the plateau at the hour when the lights come on, and in the limpid air,
+                    the pink of the settlement can be discerned spread out in the distance below:
+                    where the windows are more concentrated, where it thins out in dimply lighted
+                    alleys, where it collects the shadows of gardens, where it raises towers with
+                    signal fires; and if the evening is misty, a hazy glow swells like a milky
+                    sponge at the foot of the gulleys.</paragraph>
+                <paragraph>Travelers on the plateau, shepards shifting their flocks, bird-catchers
+                    watching their nets, hermits gathering greens: all look down and speak of
+                        <mention>Irene</mention>. At times the wind brings a music of bass drums and
+                    trumpets, the bang of firecrackers in the light-display of a festival; at times
+                    the rattle of guns, the explosion of a powder magazine in the sky yellow with
+                    the fires of civil war. Those who look down from the heights conjecture about
+                    what is happening in the city; they wonder if it would be pleasant or unpleasant
+                    to be in <mention>Irene</mention> that evening. Not that they have any intention
+                    of going there (in any case the roads winding down to the valley are bad), but
+                        <mention>Irene</mention> is a magnet for the eyes and thoughts of those who
+                    stay up above.</paragraph>
+                <paragraph>At this point <character tag="kublai">Kublai Khan</character> expects
+                        <character tag="polo">Marco</character> to speak of <mention>Irene</mention>
+                    as it is seen from within. But Marco cannot do this: he has not succeeded in
+                    discovering which is the city that those of the plateau call
+                        <mention>Irene</mention>. For that matter, it is of slight importance: if
+                    you saw it, standing in its midst, it would be a different city;
+                        <mention>Irene</mention> is a name for a city in the distance, and if you
+                    approach, it changes.</paragraph>
+                <paragraph>For those who pass it without entering, the city is one thing; it is
+                    another for those who are trapped by it and never leave. There is a city where
+                    you arrive for the first time; and there is another city which you leave never
+                    to return. Each deserves a different name; perhaps I have already spoken of
+                        <mention>Irene</mention> under other names; perhaps I have spoken only of
+                        <mention>Irene</mention>.</paragraph>
+            </city>
+            <city chapter="8" pageBegin="126" pageEnd="126" title="Cities &amp; The Dead" index="4"
+                name="Argia">
+                <paragraph>What makes <mention>Argia</mention> different from other cities is that
+                    it has earth instead of air. The streets are completely filled with dirt, clay
+                    packs the rooms to the ceiling, on every stair another stairway is set in
+                    negative, over the roofs of the houses hang layers of rocky terrain like skies
+                    with clouds. We do not know if the inhabitants can move about the city, widening
+                    the worm tunnels and the crevices where roots twist: the dampness destroys
+                    people's bodies and they have scant strength; everyone is better off remaining
+                    still, prone; anyway, it is dark.</paragraph>
+                <paragraph>From up here, nothing of <mention>Argia</mention> can be seen; some say,
+                    "It's down below there," and we can only believe them. The place is deserted. At
+                    night, putting your ear to the ground, you can sometimes hear a door
+                    slam.</paragraph>
+            </city>
+            <city chapter="8" pageBegin="128" pageEnd="128" title="Continuous Cities" index="2"
+                name="Trude">
+                <paragraph>If on arriving at <mention>Trude</mention> I had not read the city's name
+                    written in big letters, I would have thought I was landing at the same
+                        <anachronism object="airplane">airport</anachronism> from which I had taken
+                    off. The <anachronism>suburbs</anachronism> they <anachronism object="car"
+                        >drove</anachronism> me through were no different from the others, with the
+                    same little greenish and yellowish <anachronism object="house"
+                        >houses</anachronism>. Following the same signs we swung around the same
+                    flower beds in the same squares. The <anachronism object="urban city"
+                        >downtown</anachronism> streets displayed goods, packages, signs that had
+                    not changed at all. This was the first time I had come to
+                        <mention>Trude</mention>, but I already knew the <anachronism object="hotel"
+                        >hotel</anachronism> where I happened to be lodged; I had already heard and
+                    spoken my dialogues with the buyers and sellers of hardware; I had ended other
+                    days identically, looking through the same goblets at the same swaying
+                    navels.</paragraph>
+                <paragraph>Why come to <mention>Trude</mention>? <character tag="polo">I</character>
+                    asked myself. And I already wanted to leave.</paragraph>
+                <paragraph>"You can resume your <anachronism object="airplane">flight</anachronism>
+                    whenever you like," they said to me, "but you will arrive at another
+                        <mention>Trude</mention>, absolutely the same, detail by detail. The world
+                    is covered by a sole <mention>Trude</mention> which does not begin and does not
+                    end. Only the name of the <anachronism object="airplane">airport</anachronism>
+                    changes."</paragraph>
+            </city>
+        </pages>
+        <back_cover>
+            <metadata_include tag="headline" type="headline"/>
+            <metadata_include tag="description"/>
+        </back_cover>
+    </content>
+</book1>
