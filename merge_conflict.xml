@@ -4,10 +4,10 @@
     -->
 <book1>
     <information>
-        <author first_name="Italo" last_name="Calvino">Italian Calvin</author>
+        <author first_name="Italo" last_name="Calvino">calvino, italian</author>
         <title>Invisible Cities</title>
         <inclusions>
-            <item tag="headline">Dream-like story-telling at the twilight of an empire</item>
+            <item tag="headline">Dream-like story-telling at the dawn of an empire</item>
             <item tag="description">In a garden sit the aged <character tag="kublai">Kublai
                     Khan</character> and the young <character tag="polo">Marco Polo</character> --
                 Tartar emperor and Venetian traveler. <character tag="kublai">Kublai
