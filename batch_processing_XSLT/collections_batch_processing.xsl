@@ -27,7 +27,7 @@
     
     
     <xsl:variable name="shakespeare-corpus" as="document-node()+"
-        select="collection('./shakespeare_simple')"/>
+        select="collection('./shakespeare_simple?select=*.xml')"/>
     <xsl:template name="xsl:initial-template">
         <root>
             <metadata>There are <xsl:value-of select="$shakespeare-corpus//sp => 
