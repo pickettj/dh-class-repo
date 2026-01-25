@@ -1,0 +1,67 @@
+# Document Analysis
+# note: the pound sign is the syntax for writing a comment in RelaxNG — similar in function to
+# <!-- comment --> in XML. Most coding languages have comments, but the syntax differs.
+
+# recall from your "What is XML?" reading:  http://dh.obdurodon.org/what-is-xml.xhtml
+# "Every digital humanities project begins with document analysis, where we determine 
+# those aspects of the inherent hierarchical structure(s) of our documents that we wish 
+# to use for research. If we are able to identify a useful hierarchical structure, the 
+# next step is to mark up or encode our document to make that hierarchy accessible to a computer."
+
+# There is no limit to what you can mark up in XML, which means that your decisions
+# about what to capture ought to be deliberate and follow from your research questions.
+
+# The *schema* is a great place to record your *document analysis*, i.e. notes about
+# what different elements and attributes are intended to capture, why you chose them, etc.
+# You will most likely have many XML documents, but perhaps only one schema to set rules
+# for all of them. Therefore, writing your schema, and thinking through document analysis,
+# can be one and the same process.
+
+# Your task for today's recidtation is to get started on that process. You can begin to write
+# out the RelaxNG code itself, but the main point is to record your reasoning (you can figure out
+# the specific syntax later).
+
+# For intance: "Each document must be composed of one or more paragraphs." 
+# Or: "All words must be classified as a part of speach: verb, or noun, or adjective, or adverb."
+# Or: "All <location/> elements must have a unique location ID attribute value, which
+# corresponds to geographic coordinates."
+
+# Again, the main point of this exercise is discussion with your teammates: what information
+# do we wish to capture from the documents in our coprus, why, and how will we model that
+# information in XML?
+
+
+# EXAMPLE
+
+# our corpus will contain many documents, so we decided to name our root element "document"
+start = document
+
+# each document contains metadata (general information specific to that document)
+# as well as the primary text itself, which we are calling "body" for body text
+document = element document { meta, body }
+
+    # for each document, we must have information about author and publication date;
+    # information about place of publication is optional because sometimes we do not have
+    # that information but still wish to include the document in the corpus
+    meta = element meta { author+, pub_date, pub_place? }
+    
+        # there can be one or more authors of a given text
+        author = element author { text }
+        
+        # we are using the special date datatype (which restricts attribute value  to 
+        # YYYY-MM-DD format) for this attribute value
+        pub_date = element pub_date { xsd:date }
+        
+        
+        pub_place = element pub_place { text }
+
+
+
+    body = element body { text }
+
+
+
+
+
+
+
