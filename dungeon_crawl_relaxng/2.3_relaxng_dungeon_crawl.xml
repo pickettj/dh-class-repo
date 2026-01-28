@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2.3_relaxng_dungeon_crawl.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!--Time to roll for initiative!-->
+<!--The following XML presents some tricky schema challenges, which will allow us to
+learn some finer points of RelaxNG.-->
+
+
+<rpg>
+    <party_members>
+        <!-- Our first challenge is that we want to restrict the datatype in that level
+        to *integers only* so that we can use it for ability checks.-->
+        <pc name="Drizzt" class="ranger" level="16" alignment="chaotic_good"/>
+        <pc name="Bruenor" class="fighter" level="18" alignment="lawful_good"/>
+        <pc name="Wulfgar" class="barbarian" level="14" alignment="chaotic_good"/>
+        <!--Our next problem: multi-classing! In D&D, a character can have multiple classes
+        at once. However, base XML only allows a single attribute to have a single attribute value.
+        What to do, what to do...-->
+        <pc name="Cattie-brie" class="fighter ranger" level="13" alignment="chaotic_good"/>
+        <pc name="Regis" class="rogue fighter" level="10" alignment="neutral_good"/>
+    </party_members>
+    <adventure>
+        <scene>
+            <!-- Next challenge: we have an element <pc/> (player character) that functions differently
+            in the main text than it does in the list of characters — which means we want to restrict it differently -->
+            <dm>As you kick down the dungeon door, a murky blackness stretches out before you. The
+                stench of goblin filth and something worse—something undead—wafts from the
+                darkness.</dm>
+            <!-- Next challenge: mixed content! This <pc> element consists of both text and elements. What to do? -->
+            <pc name="Drizzt">Fortunately for me, I have infravision: I make a <roll>spot
+                    check</roll>.</pc>
+            <dm>Your <monster>dark elf</monster> vision pierces the gloom. You see heat
+                signatures—six <monster>goblins</monster> clustered around what appears to be a
+                cooking fire, and beyond them, something cold and lifeless shuffling in the
+                shadows.</dm>
+            <pc name="Bruenor">Bah! I can smell the stinkin' things from here! Let me at 'em with me
+                <weapon damage="slashing piercing">axe</weapon>!</pc>
+            <pc name="Wulfgar">Wait, Bruenor. Drizzt sees something else. What moves in the
+                darkness, my friend?</pc>
+            <pc name="Drizzt"><monster>Undead</monster>. At least two, maybe three. I draw <magical_item>Twinkle</magical_item>—her glow will reveal
+                what my eyes cannot.</pc>
+            <dm>As you draw your <weapon damage="slashing">scimitar</weapon>, its magical blue-white radiance floods the chamber. The
+                <monster>goblins</monster> shriek and scramble for weapons. Behind them, three <monster>zombies</monster> in rotted armor
+                turn toward you with mindless hunger.</dm>
+            <pc name="Cattie-brie">I've got the uglies in the back. <roll>Initiative roll</roll> for
+                <magical_item>Taulmaril</magical_item>!</pc>
+            <pc name="Regis">I'll just... stay behind Wulfgar. For tactical purposes, you
+                understand.</pc>
+            <dm>Roll for initiative, everyone!</dm>
+        </scene>
+    </adventure>
+</rpg>

@@ -1,0 +1,65 @@
+start = rpg
+
+# we have to have a list of party members, but we can have any amount of adventures in this document
+# what is the operator for zero or more?
+rpg = element rpg { party_members, adventure }
+
+# we need at least one party member for it to count as a party, hence zero or more player-characters (pc)
+party_members = element party_members { pc }
+    # I want to include information about who is playing the game using *markup only*, i.e., 
+    # I do not want to have any text inside the elements, which means that <pc> should be
+    # restricted to an *empty* element. How?
+    pc = element pc { name, class, level, alignment }
+        # Characters can choose any name, so this declaration works well
+        name = attribute name { text }
+        # Next one is tricky: characters can have multiple classes at the same time,
+        # but from XML's perspective something like "fighter ranger" is a unique string
+        # that has no relation to either "fighter" or "ranger": what to do?
+        class = attribute class { text }
+        # now another connundrum: we want to make sure that the attribute value of level is always
+        # an integer so that we can use it for calculations — ya know, ability checks and stuff.
+        level = attribute level { text }
+        # alignments are not like classes in that the different values ought to be understood
+        # separately from one another. to make sure that something like the list method we figured out 
+        # above doesn't get applied here, I am going to use underscores instead of white spaces.
+        alignment = attribute alignment { text }
+                #also, another little trick: there are a lot of alignments, so to make it easier to read
+                # (and in case I might want to reuse the values for some other rule), I am going to state a
+                # "named pattern" called alignment_values, and then call that pattern in the alignment
+                # declaration. Think of it like saving a variable with these values.
+                alignment_values = "lawful_good" | "neutral_good" | "chaotic_good" | 
+                   "lawful_neutral" | "true_neutral" | "chaotic_neutral" |
+                   "lawful_evil" | "neutral_evil" | "chaotic_evil"
+
+# Okay, on to the adventure!
+# To count as an adventure, there needs to be one or more scenes.
+adventure = element adventure { scene }
+
+    # Like a play, a scene consists of dialogue either by the players or the Dungeon Master (dm).
+    # We can have any amount of either in any order.
+    # This brings us to a design choice: can we have a scene if only the DM or only the player speaks?
+    # Or do we need at least one line from either (i.e., some kind of *interaction*) for it to be a scene?
+    # We could model either, but the code would be a bit different.
+    scene = element scene { text }
+    
+        # What about mixed content? These dialogues consist of text and elements.
+        dm = element dm { text }
+        
+        # next challenge: we have an element for player characters (pc) in the player at the list,
+        # and pc as an element in the main text: but they are doing different things, and therefore
+        # must play by different rules! (We might have modeled this differently and avoided this problem 
+        # by naming the elements differently, but let's pretend like we are stuck with this XML.)
+        dialogue_pc = element pc { text }
+            dialogue_name = attribute name { text }
+
+            # I am going to reuse that "named pattern" trick from above and list all of the elements that can
+            # appear in our dialogue
+                dialogue_elements = (monster | weapon | roll | magical_item)*
+                    monster = element monster { text }
+                    weapon = element weapon { damage, text }
+                        # here we have the opportunity to reinforce our list method, since weapon damage can have multiple
+                        # values at the same time
+                        damage = attribute damage { text }
+                    roll = element roll { text }
+                    magical_item = element magical_item { text }
+
