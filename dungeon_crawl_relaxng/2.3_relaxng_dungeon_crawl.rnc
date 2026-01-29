@@ -49,8 +49,8 @@ adventure = element adventure { scene }
         # and pc as an element in the main text: but they are doing different things, and therefore
         # must play by different rules! (We might have modeled this differently and avoided this problem 
         # by naming the elements differently, but let's pretend like we are stuck with this XML.)
-        dialogue_pc = element pc { text }
-            dialogue_name = attribute name { text }
+        pc = element pc { text }
+            name = attribute name { text }
 
             # I am going to reuse that "named pattern" trick from above and list all of the elements that can
             # appear in our dialogue
