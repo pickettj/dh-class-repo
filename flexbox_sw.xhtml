@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Box Model and CSS Hierarchy Exercise - Star Wars Scene</title>
+        <link rel="stylesheet" href="flexbox_sw.css" />
+    </head>
+    <body>
+        <h1>Star Wars: Death Star Rescue</h1>
+        
+        <!-- Scene 1: Prison Cell -->
+        <div class="scene" data-location="cell-block" data-importance="high">
+            <h2>Scene 1: Prison Cell</h2>
+            
+            <p class="stage-direction" data-mood="tense">
+                Luke enters Princess Leia's cell wearing stormtrooper armor.
+            </p>
+            
+            <div class="dialogue" data-emotion="suspicious">
+                <span class="character" data-force="light" data-role="princess">LEIA:</span>
+                <span class="line">Aren't you a little short to be a stormtrooper?</span>
+            </div>
+            
+            <div class="dialogue" data-emotion="nervous">
+                <span class="character" data-force="light" data-role="hero">LUKE:</span>
+                <span class="line">What? Oh... the uniform. I'm Luke Skywalker. I'm here to rescue you.</span>
+            </div>
+            
+            <div class="dialogue" data-emotion="skeptical">
+                <span class="character" data-force="light" data-role="princess">LEIA:</span>
+                <span class="line">You're who?</span>
+            </div>
+        </div>
+        
+        <!-- Scene 2: Detention Corridor -->
+        <div class="scene" data-location="corridor" data-importance="high">
+            <h2>Scene 2: Detention Corridor</h2>
+            
+            <p class="stage-direction" data-mood="action">
+                The heroes are trapped. Blaster fire fills the corridor with smoke.
+            </p>
+            
+            <div class="dialogue" data-emotion="frustrated">
+                <span class="character" data-force="neutral" data-role="smuggler">HAN:</span>
+                <span class="line">Can't get out that way.</span>
+            </div>
+            
+            <div class="dialogue" data-emotion="sarcastic">
+                <span class="character" data-force="light" data-role="princess">LEIA:</span>
+                <span class="line">This is some rescue. Didn't you have a plan for getting out?</span>
+            </div>
+            
+            <div class="dialogue" data-emotion="defensive">
+                <span class="character" data-force="neutral" data-role="smuggler">HAN:</span>
+                <span class="line" data-target="luke">He's the brains, sweetheart.</span>
+            </div>
+            
+            <div class="dialogue" data-emotion="worried">
+                <span class="character" data-force="light" data-role="hero">LUKE:</span>
+                <span class="line">Well, I didn't...</span>
+            </div>
+            
+            <p class="stage-direction" data-mood="action">
+                Stormtroopers advance from both ends of the corridor.
+            </p>
+        </div>
+        
+        <!-- Scene 3: Control Room -->
+        <div class="scene" data-location="control-room" data-importance="medium">
+            <h2>Scene 3: Control Room</h2>
+            
+            <p class="stage-direction" data-mood="comic">
+                R2-D2 and C-3PO hide in the control room.
+            </p>
+            
+            <div class="dialogue" data-emotion="panicked">
+                <span class="character" data-force="none" data-role="droid">THREEPIO:</span>
+                <span class="line">We're doomed!</span>
+            </div>
+            
+            <div class="dialogue" data-emotion="determined">
+                <span class="character" data-force="none" data-role="droid">ARTOO:</span>
+                <span class="line" data-type="beeps">Beep boop whistle!</span>
+            </div>
+        </div>
+        
+        <!-- Scene 4: The Escape -->
+        <div class="scene" data-location="garbage-chute" data-importance="high">
+            <h2>Scene 4: Garbage Chute</h2>
+            
+            <p class="stage-direction" data-mood="action">
+                Leia takes charge as stormtroopers close in.
+            </p>
+            
+            <div class="dialogue" data-emotion="commanding">
+                <span class="character" data-force="light" data-role="princess">LEIA:</span>
+                <span class="line">Somebody has to save our skins. Into the garbage chute, wise guy.</span>
+            </div>
+            
+            <div class="dialogue" data-emotion="angry">
+                <span class="character" data-force="neutral" data-role="smuggler">HAN:</span>
+                <span class="line" data-target="chewbacca">Get in there you big furry oaf! I don't care what you smell!</span>
+            </div>
+            
+            <div class="dialogue" data-emotion="frustrated-amused">
+                <span class="character" data-force="neutral" data-role="smuggler">HAN:</span>
+                <span class="line">Wonderful girl! Either I'm going to kill her or I'm beginning to like her.</span>
+            </div>
+            
+            <p class="stage-direction" data-mood="action">
+                One by one, they jump into the garbage chute and disappear.
+            </p>
+        </div>
+        
+        <!-- Scene 5: Command Center -->
+        <div class="scene" data-location="command-center" data-importance="low">
+            <h2>Scene 5: Imperial Command</h2>
+            
+            <p class="stage-direction" data-mood="ominous">
+                On the Death Star bridge, two figures sense a disturbance.
+            </p>
+            
+            <div class="dialogue" data-emotion="sensing">
+                <span class="character" data-force="dark" data-role="villain">VADER:</span>
+                <span class="line">I sense something... a presence I haven't felt since...</span>
+            </div>
+            
+            <div class="dialogue" data-emotion="dismissive">
+                <span class="character" data-force="none" data-role="commander">TARKIN:</span>
+                <span class="line">The Jedi are extinct. Their fire has gone out of the universe.</span>
+            </div>
+        </div>
+    </body>
+</html>
