@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hobbit>
+    <cast>
+        <character id="bilbo" heritage="hobbit" alignment="neutral"/>
+        <character id="gandalf" heritage="wizard" alignment="good"/>
+        <character id="thorin" heritage="dwarf" alignment="good"/>
+        <character id="dwalin" heritage="dwarf" alignment="good"/>
+        <character id="balin" heritage="dwarf" alignment="good"/>
+        <character id="kili" heritage="dwarf" alignment="good"/>
+        <character id="fili" heritage="dwarf" alignment="good"/>
+        <character id="bombur" heritage="dwarf" alignment="good"/>
+        <character id="bifur" heritage="dwarf" alignment="good"/>
+        <character id="bofur" heritage="dwarf" alignment="good"/>
+        <character id="dori" heritage="dwarf" alignment="good"/>
+        <character id="nori" heritage="dwarf" alignment="good"/>
+        <character id="ori" heritage="dwarf" alignment="good"/>
+        <character id="oin" heritage="dwarf" alignment="good"/>
+        <character id="gloin" heritage="dwarf" alignment="good"/>
+        <character id="smaug" heritage="dragon" alignment="evil"/>
+        <place id="theHill" type="landmark"/>
+        <place id="theWater" type="river"/>
+        <place id="bagEnd" type="hobbitHole"/>
+        <place id="dale" type="town"/>
+        <place id="theMountain" type="mountain"/>
+        <place id="mirkwood" type="forest"/>
+        <place id="moria" type="mine"/>
+    </cast>
+    <chapter n="1" title="An Unexpected Party">
+
+        <paragraph>In a hole in the ground there lived a <character ref="bilbo" heritage="hobbit">hobbit</character>.
+            Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry,
+            bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that
+            means comfort.</paragraph>
+
+        <paragraph>It had a perfectly round door like a porthole, painted green, with a shiny yellow brass
+            knob in the exact middle. The door opened on to a tube-shaped hall like a tunnel: a very
+            comfortable tunnel without smoke, with panelled walls, and floors tiled and carpeted, provided
+            with polished chairs, and lots and lots of pegs for hats and coats — the <character ref="bilbo"
+                heritage="hobbit">hobbit</character> was fond of visitors. The tunnel wound on and on, going
+            fairly but not quite straight into the side of <place ref="theHill">The Hill</place> — <place
+                ref="theHill">The Hill</place>, as all the people for many miles round called it — and many
+            little round doors opened out of it, first on one side and then on another.</paragraph>
+
+        <paragraph>This <character ref="bilbo" heritage="hobbit">hobbit</character> was a very well-to-do
+            hobbit, and his name was <character ref="bilbo" heritage="hobbit">Baggins</character>. The
+            Bagginses had lived in the neighbourhood of <place ref="theHill">The Hill</place> for time out
+            of mind, and people considered them very respectable, not only because most of them were rich,
+            but also because they never had any adventures or did anything unexpected: you could tell what a
+            Baggins would say on any question without the bother of asking him. This is a story of how a
+            Baggins had an adventure, and found himself doing and saying things altogether
+            unexpected.</paragraph>
+
+        <paragraph>The mother of our particular <character ref="bilbo" heritage="hobbit">hobbit</character> —
+            what is a hobbit? I suppose hobbits need some description nowadays, since they have become rare
+            and shy of the Big People, as they call us. They are (or were) a little people, about half our
+            height, and smaller than the bearded dwarves. Hobbits have no beards. There is little or no
+            magic about them, except the ordinary everyday sort which helps them to disappear quietly and
+            quickly when large stupid folk like you and me come blundering along, making a noise like
+            elephants which they can hear a mile off.</paragraph>
+
+        <paragraph>Now you know enough to go on with. As I was saying, the mother of this
+            <character ref="bilbo" heritage="hobbit">hobbit</character> — of <character ref="bilbo"
+                heritage="hobbit">Bilbo Baggins</character>, that is — was the famous Belladonna Took, one of
+            the three remarkable daughters of the Old Took, head of the hobbits who lived across
+            <place ref="theWater">The Water</place>, the small river that ran at the foot of
+            <place ref="theHill">The Hill</place>.</paragraph>
+
+        <paragraph>By some curious chance one morning long ago in the quiet of the world, when there was
+            less noise and more green, and the hobbits were still numerous and prosperous, and
+            <character ref="bilbo" heritage="hobbit">Bilbo Baggins</character> was standing at his door after
+            breakfast smoking an enormous long wooden <item type="object">pipe</item> that reached nearly
+            down to his woolly toes — <character ref="gandalf" heritage="wizard">Gandalf</character> came by.
+            <character ref="gandalf" heritage="wizard">Gandalf</character>! If you had heard only a quarter of
+            what I have heard about him, and I have only heard very little of all there is to hear, you
+            would be prepared for any sort of remarkable tale. Tales and adventures sprouted up all over the
+            place wherever he went, in the most extraordinary fashion.</paragraph>
+
+        <paragraph>All that the unsuspecting <character ref="bilbo" heritage="hobbit">Bilbo</character> saw that
+            morning was an old man with a staff. He had a tall pointed blue hat, a long grey cloak, a
+            silver scarf over which his long white beard hung down below his waist, and immense black
+            boots.</paragraph>
+
+        <paragraph><said who="bilbo">"Good Morning!"</said> said <character ref="bilbo" heritage="hobbit"
+            >Bilbo</character>, and he meant it. The sun was shining, and the grass was very green. But
+            <character ref="gandalf" heritage="wizard">Gandalf</character> looked at him from under long bushy
+            eyebrows that stuck out further than the brim of his shady hat.</paragraph>
+
+        <paragraph><said who="gandalf">"What do you mean?"</said> he said. <said who="gandalf">"Do you wish
+                me a good morning, or mean that it is a good morning whether I want it or not; or that you
+                feel good this morning; or that it is a morning to be good on?"</said></paragraph>
+
+        <paragraph><said who="bilbo">"All of them at once,"</said> said <character ref="bilbo" heritage="hobbit"
+            >Bilbo</character>. <said who="bilbo">"And a very fine morning for a pipe of tobacco out of
+                doors, into the bargain. If you have a pipe about you, sit down and have a fill of mine!
+                There's no hurry, we have all the day before us!"</said> Then <character ref="bilbo"
+                heritage="hobbit">Bilbo</character> sat down on a seat by his door, crossed his legs, and blew
+            out a beautiful grey ring of smoke that sailed up into the air without breaking and floated away
+            over <place ref="theHill">The Hill</place>.</paragraph>
+
+        <paragraph><said who="gandalf">"Very pretty!"</said> said <character ref="gandalf" heritage="wizard"
+            >Gandalf</character>. <said who="gandalf">"But I have no time to blow smoke-rings this morning.
+                I am looking for someone to share in an adventure that I am arranging, and it's very
+                difficult to find anyone."</said></paragraph>
+
+        <paragraph><said who="bilbo">"I should think so — in these parts! We are plain quiet folk and have
+                no use for adventures. Nasty disturbing uncomfortable things! Make you late for dinner! I
+                can't think what anybody sees in them,"</said> said our <character ref="bilbo" heritage="hobbit"
+            >Mr. Baggins</character>, and stuck one thumb behind his bheritages, and blew out another even
+            bigger smoke-ring. Then he took out his morning letters, and began to read, pretending to take
+            no more notice of the old man.</paragraph>
+
+        <paragraph><said who="gandalf">"What a lot of things you do use Good morning for!"</said> said
+            <character ref="gandalf" heritage="wizard">Gandalf</character>. <said who="gandalf">"Now you mean
+                that you want to get rid of me, and that it won't be good till I move off."</said></paragraph>
+
+        <paragraph><said who="gandalf">"I am Gandalf, and Gandalf means me! To think that I should have
+                lived to be good-morninged by Belladonna Took's son, as if I was selling buttons at the
+                door!"</said></paragraph>
+
+        <paragraph><said who="bilbo">"Gandalf, Gandalf! Good gracious me! Not the wandering wizard that gave
+                Old Took a pair of magic diamond studs that fastened themselves and never came undone till
+                ordered? Not the fellow who used to tell such wonderful tales at parties, about dragons and
+                goblins and giants and the rescue of princesses and the unexpected luck of widows' sons? Not
+                the man that used to make such particularly excellent fireworks!"</said></paragraph>
+
+        <paragraph>Just before tea-time there came a tremendous ring on the front-door bell, and then
+            <character ref="bilbo" heritage="hobbit">he</character> remembered! He rushed and put on the
+            kettle, and put out another cup and saucer, and an extra cake or two, and ran to the door. It
+            was not <character ref="gandalf" heritage="wizard">Gandalf</character> at all. It was
+            <character ref="dwalin" heritage="dwarf">a dwarf with a blue beard tucked into a golden belt</character>,
+            and very bright eyes under his dark-green hood. As soon as the door was opened, he pushed
+            inside, just as if he had been expected. He hung his hooded cloak on the nearest peg.</paragraph>
+
+        <paragraph><said who="dwalin">"Dwalin at your service!"</said> he said with a low bow.</paragraph>
+
+        <paragraph><said who="bilbo">"Bilbo Baggins at yours!"</said> said the <character ref="bilbo"
+                heritage="hobbit">hobbit</character>, too surprised to ask any questions for the moment.</paragraph>
+
+        <paragraph>They had not been at table long, in fact they had hardly reached the third cake, when
+            there came another even louder ring at the bell. It was not <character ref="gandalf" heritage="wizard"
+            >Gandalf</character>. Instead there was a very old-looking <character ref="balin" heritage="dwarf"
+            >dwarf on the step with a white beard and a scarlet hood</character>; and he too hopped inside
+            as soon as the door was open, just as if he had been invited.</paragraph>
+
+        <paragraph><said who="balin">"Balin at your service!"</said> he said with his hand on his
+            breast.</paragraph>
+
+        <paragraph><said who="bilbo">"Thank you!"</said> said <character ref="bilbo" heritage="hobbit"
+            >Bilbo</character> with a gasp.</paragraph>
+
+        <paragraph>And so the evening wore on. <character ref="thorin" heritage="dwarf">Thorin</character>
+            spread a piece of <item type="document">parchment rather like a map</item> on the table in the
+            light of a big lamp with a red shade. <said who="gandalf">"This was made by
+                <character ref="thorin" heritage="dwarf">Thror</character>, your grandfather,
+                <character ref="thorin" heritage="dwarf">Thorin</character>,"</said> he said. <said who="gandalf"
+            >"It is a plan of <place ref="theMountain">the Mountain</place>."</said></paragraph>
+
+        <paragraph><said who="thorin">"I don't see that this will help us much,"</said> said
+            <character ref="thorin" heritage="dwarf">Thorin</character> disappointedly after a glance.
+            <said who="thorin">"I remember <place ref="theMountain">the Mountain</place> well enough
+                and the lands about it. And I know where <place ref="mirkwood">Mirkwood</place> is, and the
+                Withered Heath where the great dragons bred."</said></paragraph>
+
+        <paragraph><said who="gandalf">"There is one point that you haven't noticed,"</said> said
+            <character ref="gandalf" heritage="wizard">the wizard</character>, <said who="gandalf">"and that is
+                the secret entrance."</said></paragraph>
+
+        <paragraph>As they sang the <character ref="bilbo" heritage="hobbit">hobbit</character> felt the love of
+            beautiful things made by hands and by cunning and by magic moving through him, a fierce and a
+            jealous love, the desire of the hearts of dwarves. Then something Tookish woke up inside him,
+            and he wished to go and see the great mountains, and hear the pine-trees and the waterfalls, and
+            explore the caves, and wear a sword instead of a walking-stick. He looked out of the window. The
+            stars were out in a dark sky above the trees. He thought of the jewels of the dwarves shining in
+            dark caverns. Suddenly in the wood beyond <place ref="theWater">The Water</place> a flame leapt
+            up — probably somebody lighting a wood-fire — and he thought of plundering <character ref="smaug"
+                heritage="dragon">dragons</character> settling on his quiet
+            <place ref="theHill">Hill</place> and kindling it all to flames. He shuddered.</paragraph>
+
+    </chapter>
+</hobbit>
